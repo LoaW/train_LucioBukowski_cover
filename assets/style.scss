@@ -1,0 +1,38 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(6, 3, 3);
+}
+
+.container{
+    position: relative;
+    width: 50%;
+    height: 50%;
+    top: 25vh;
+    left: 25vh;
+    .container--image{
+        //display: none;
+        width: 100%;
+        height: auto;
+    }
+     .container--button{
+        position: relative;
+        left: 40%;
+        bottom: 40%;
+        padding-top: 10px;
+        a{
+            border: solid;
+            border-radius: 15px;
+            color: white;
+            text-decoration: none;
+            padding: 4px 8px;
+        }
+        a:hover{
+            cursor: pointer;
+            color: orange;
+        }
+    }
+}
