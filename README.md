@@ -4,3 +4,5 @@
 
 Petit exercice consistant à produire une pochette d'album sous forme de page internet.
 Artiste : Lucio Bukoswki
+
+Contrainte: Pas de flexbox, grid et Framework
